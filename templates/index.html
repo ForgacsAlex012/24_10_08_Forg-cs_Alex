@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <h2> </h2>
+    <ul>
+        <li>Gáspár</li>
+        <li>laci</li>
+        <li>TOP C</li>
+    </ul>
+    
+    <p>Gáspár laci TOP C</p>
+
+    <ol start="1">
+        
+        <li>lacika</li>
+        <li>Veri a teraszon </li>
+    </ol>
+
+    <table>
+        <tr>
+            <th cospan="2"> Termék </th>
+        </tr>
+        <tr>
+            <td>Sör</td>
+            <td>Cigi</td>
+        </tr>
+        <tr>
+            <td cospan="2">Gyümölcs</td>
+            <td>BANANAAAAAAAAAAAAA</td>
+        </tr>
+        <tr>
+            <td><td cospan="2">Zöldség</td>
+            <td>Répa</td>
+        </tr>
+        <td>
+            <tr>Krumpli</tr>
+        </td>
+    </table>
+    <form action="/" method="POST">
+    <label for="fname">Terméknév: </label>
+    <input type="text" id="product_name" name="product_name"><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+    {%if name%}
+        <h2>Beküldött adat:</h2>
+        <p>Név:  {{ name }}</p>
+    {% endif %}
+
+</body>
+</html>
